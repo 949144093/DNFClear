@@ -27,7 +27,7 @@ namespace DNFClearForm
             try
             {
                 // 清除空格
-                strPath = @strPath.Trim().ToString();
+                 strPath = @strPath.Trim().ToString();
                 // 判断文件夹是否存在
                 if (System.IO.Directory.Exists(strPath))
                 {
@@ -38,15 +38,17 @@ namespace DNFClearForm
                     // 遍历所有子文件夹
                     foreach (string strFile in strFiles)
                     {
-                        // 删除文件夹
-                        System.IO.File.Delete(strFile);
-                        textBox1.AppendText(strFile+"文件夹已经删除\r\n");
-
+                        // 删除文件
+                        if (!strFile.EndsWith("DNF.cfg"))
+                        {
+                            System.IO.File.Delete(strFile);
+                            textBox1.AppendText(strFile + "文件已经删除\r\n");
+                        }
                     }
                     // 遍历所有文件
                     foreach (string strdir in strDirs)
                     {
-                        // 删除文件
+                        // 删除文件夹
                         System.IO.Directory.Delete(strdir, true);
                         textBox1.AppendText(strdir + "文件夹已经删除\r\n");
                     }
@@ -57,7 +59,7 @@ namespace DNFClearForm
             catch (Exception Exp) // 异常处理
             {
                 // 异常信息
-                MessageBox.Show("文件占用，请关闭游戏后重试！");
+                MessageBox.Show("文件占用，请关闭游戏和wegame后重试！");
                 // 失败
                 return false;
             }
@@ -78,7 +80,7 @@ namespace DNFClearForm
                         }
                         catch (Exception)
                         {
-                            MessageBox.Show("文件占用，请关闭游戏后重试！");
+                            MessageBox.Show("文件占用，请关闭游戏和wegame后重试！");
                         }
 
                     }
