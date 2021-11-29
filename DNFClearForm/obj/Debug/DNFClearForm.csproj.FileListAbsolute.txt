@@ -8,3 +8,12 @@ C:\Users\Frank\source\repos\DNFClearForm\DNFClearForm\obj\Debug\DNFClearForm.csp
 C:\Users\Frank\source\repos\DNFClearForm\DNFClearForm\obj\Debug\DNFClearForm.csproj.CoreCompileInputs.cache
 C:\Users\Frank\source\repos\DNFClearForm\DNFClearForm\obj\Debug\DNFClearForm.exe
 C:\Users\Frank\source\repos\DNFClearForm\DNFClearForm\obj\Debug\DNFClearForm.pdb
+C:\Users\Frank\source\repos\DNFClear\DNFClearForm\obj\Debug\DNFClearForm.Form1.resources
+C:\Users\Frank\source\repos\DNFClear\DNFClearForm\obj\Debug\DNFClearForm.Properties.Resources.resources
+C:\Users\Frank\source\repos\DNFClear\DNFClearForm\obj\Debug\DNFClearForm.csproj.GenerateResource.cache
+C:\Users\Frank\source\repos\DNFClear\DNFClearForm\obj\Debug\DNFClearForm.csproj.CoreCompileInputs.cache
+C:\Users\Frank\source\repos\DNFClear\DNFClearForm\obj\Debug\DNFClearForm.exe
+C:\Users\Frank\source\repos\DNFClear\DNFClearForm\obj\Debug\DNFClearForm.pdb
+C:\Users\Frank\source\repos\DNFClear\DNFClearForm\bin\Debug\DNFClearForm.exe.config
+C:\Users\Frank\source\repos\DNFClear\DNFClearForm\bin\Debug\DNFClearForm.exe
+C:\Users\Frank\source\repos\DNFClear\DNFClearForm\bin\Debug\DNFClearForm.pdb
